@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, FC } from "react";
 import ReactDOM from "react-dom";
 import { motion } from "framer-motion";
-import { FiMenu, FiX, FiArrowRight } from "react-icons/fi";
+import { FiX } from "react-icons/fi";
 
 interface HeaderModalProps {
   visible: boolean;

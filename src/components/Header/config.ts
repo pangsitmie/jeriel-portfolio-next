@@ -4,15 +4,11 @@ export const navigationItems = [
     path: '/projects',
   },
   {
-    title: 'Clients',
-    path: '/clients',
-  },
-  {
     title: 'About',
     path: '/about',
   },
   {
-    title: 'Contact',
-    path: '/contact',
+    title: 'Resume',
+    path: '/resume',
   },
 ];

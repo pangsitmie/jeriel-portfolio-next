@@ -28,14 +28,9 @@ const Footer = () => {
   return (
     <Container backgroundColor={ContainerBackgroundColor.gray}>
       <div className={"flex flex-col items-center justify-center py-12"}>
-        <h1 className="text-5xl md:text-xl mb-6">Stay Ahead of the Curve!</h1>
-        <p className="text-zinc-400 mb-8 text-center w-1/2">
-          Ready to taste sweet success and bathe in the glory of tech?
-          <br />
-        </p>
         <HeroSocials />
         <p className="mt-8 text-zinc-400 text-sm text-gray">
-          &copy; 2021 Round Bytes. All rights reserved.
+          &copy; jerielisaiah.
         </p>
       </div>
     </Container>

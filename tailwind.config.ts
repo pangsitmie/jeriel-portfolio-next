@@ -68,6 +68,7 @@ const config: Config = {
         mandy: '#DC4B5C',
         pink: '#EA9BD5',
         purple: '#6C4EF0',
+        primary: '#61f8d4',
       },
       width: {
         fit: 'fit-content',

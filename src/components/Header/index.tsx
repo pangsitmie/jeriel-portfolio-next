@@ -92,7 +92,7 @@ const Header = () => {
       </div>
       <HeaderModal
         visible={visible}
-        wrapClassName="bg-white text-black z-[100] backdrop-blur-[15px]"
+        wrapClassName="bg-black text-black z-[1000] backdrop-blur-[15px]"
         onClick={handleModalVisible}
       ></HeaderModal>
     </nav>
