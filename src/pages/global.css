@@ -1,0 +1,83 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=DM+Sans:opsz,wght@9..40,100&display=swap'); */
+
+
+
+@font-face {
+    font-family: 'BowlbyOne';
+    src: url('../fonts/BowlbyOne.ttf');
+}
+
+@font-face {
+    font-family: 'FuturaMaxi';
+    src: url('../fonts/FuturaMaxiBook.woff2');
+}
+
+@font-face {
+    font-family: 'FuturaCondensed';
+    src: url('../fonts/font2.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Font3';
+    src: url('../fonts/font3.woff2') format('woff2');
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html,
+body,
+#root,
+.app {
+    background-color: #FFF;
+    height: 100%;
+    width: 100%;
+    font-family: 'FuturaMaxi', sans-serif;
+    font-weight: 100;
+    /* this apply is for text color */
+    @apply text-white;
+    scroll-behavior: smooth;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(20%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+small {
+    font-size: 0.7rem;
+    @apply text-gray-100;
+}
+
+span {
+    @apply text-white;
+}
+
+p {
+    font-size: 16px;
+    line-height: 175%;
+}
+
+.slick-slide>div {
+    margin: 0 20px;
+}
+
+.slick-list {
+    margin: 0 -20px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
