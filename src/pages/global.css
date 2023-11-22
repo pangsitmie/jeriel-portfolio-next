@@ -19,10 +19,21 @@
     src: url('../fonts/font2.woff2') format('woff2');
 }
 
+/* 
 @font-face {
     font-family: 'Font3';
     src: url('../fonts/font3.woff2') format('woff2');
+} */
+/* 
+@font-face {
+    font-family: 'AktivGrotesk';
+    src: url('../fonts/AktivGrotesk.woff2') format('woff2');
 }
+
+@font-face {
+    font-family: 'ItalianPlateSemibold';
+    src: url('../fonts/ItalianPlateSemibold.woff2') format('woff2');
+} */
 
 
 ::-webkit-scrollbar {

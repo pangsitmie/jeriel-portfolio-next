@@ -44,7 +44,7 @@ const Copy = () => {
           <h1 className="mb-6  max-w-4xl text-8xl md:text-6xl font-black leading-[1.1] text-white ">
             Where Art Meets <span className="text-indigo-600">Algorithm</span>
           </h1>
-          <p className="max-w-xl text-2xl md:text-xl text-zinc-400 mb-4">
+          <p className="max-w-xl text-2xl md:text-xl text-zinc-400 mb-6">
             Explore Jeriel's life museums | UI Engineer
           </p>
           <HeroSocials />
